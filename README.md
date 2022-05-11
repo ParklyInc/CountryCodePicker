@@ -1,7 +1,7 @@
 Country Code Picker Library
 ==================================
 
-![ViewCount](https://views.whatilearened.today/views/github/ParklyInc/CountryCodePicker.svg) [![GitHub issues](https://img.shields.io/github/issues/ParklyInc/CountryCodePicker)](https://github.com/ParklyInc/CountryCodePicker/issues)  [![GitHub forks](https://img.shields.io/github/forks/hbb20/CountryCodePickerProject)](https://github.com/ParklyInc/CountryCodePicker/network) [![GitHub stars](https://img.shields.io/github/stars/ParklyInc/CountryCodePicker)](https://github.com/ParklyInc/CountryCodePicker/stargazers) [![GitHub license](https://img.shields.io/github/license/ParklyInc/CountryCodePicker)](https://github.com/ParklyInc/CountryCodePicker/blob/master/License.txt) 
+![ViewCount](https://views.whatilearened.today/views/github/ParklyInc/CountryCodePicker.svg) [![GitHub issues](https://img.shields.io/github/issues/ParklyInc/CountryCodePicker)](https://github.com/ParklyInc/CountryCodePicker/issues)  [![GitHub forks](https://img.shields.io/github/forks/ParklyInc/CountryCodePicker)](https://github.com/ParklyInc/CountryCodePicker/network) [![GitHub stars](https://img.shields.io/github/stars/ParklyInc/CountryCodePicker)](https://github.com/ParklyInc/CountryCodePicker/stargazers) [![GitHub license](https://img.shields.io/github/license/ParklyInc/CountryCodePicker)](https://github.com/ParklyInc/CountryCodePicker/blob/master/License.txt) 
 ![GitHub search hit counter](https://img.shields.io/github/search/ParklyInc/CountryCodePicker/CountryCodePicker)
 
 
