@@ -17,10 +17,6 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Locale;
 
-
-/**
- * Created by hbb20 on 11/1/16.
- */
 public class CCPCountry implements Comparable<CCPCountry> {
     static int DEFAULT_FLAG_RES = -99;
     static String TAG = "Class Country";

@@ -40,9 +40,6 @@ import io.michaelrocks.libphonenumber.android.NumberParseException;
 import io.michaelrocks.libphonenumber.android.PhoneNumberUtil;
 import io.michaelrocks.libphonenumber.android.Phonenumber;
 
-/**
- * Created by hbb20 on 11/1/16.
- */
 public class CountryCodePicker extends RelativeLayout {
 
     static final int DEFAULT_UNSET = -99;

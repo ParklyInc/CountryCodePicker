@@ -23,9 +23,6 @@ import io.futuremind.recyclerviewfastscroll.SectionTitleProvider;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by hbb20 on 11/1/16.
- */
 class CountryCodeAdapter extends RecyclerView.Adapter<CountryCodeAdapter.CountryCodeViewHolder> implements SectionTitleProvider {
     List<CCPCountry> filteredCountries = null, masterCountries = null;
     TextView textView_noResult;
