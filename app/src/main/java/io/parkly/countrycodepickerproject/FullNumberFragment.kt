@@ -78,10 +78,10 @@ class FullNumberFragment: Fragment() {
 		ccpGetNumber.registerCarrierNumberEditText(editTextGetCarrierNumber)
 		ccpGetNumber.setPhoneNumberValidityChangeListener { isValidNumber ->
 			if (isValidNumber) {
-				imgValidity.setImageDrawable(getDrawable(context!!, R.drawable.ic_assignment_turned_in_black_24dp))
+				imgValidity.setImageDrawable(getDrawable(requireContext(), R.drawable.ic_assignment_turned_in_black_24dp))
 				tvValidity.text = "Valid Number"
 			} else {
-				imgValidity.setImageDrawable(getDrawable(context!!, R.drawable.ic_assignment_late_black_24dp))
+				imgValidity.setImageDrawable(getDrawable(requireContext(), R.drawable.ic_assignment_late_black_24dp))
 				tvValidity.text = "Invalid Number"
 			}
 		}
@@ -91,21 +91,21 @@ class FullNumberFragment: Fragment() {
 
 	private fun assignView() {
 		//load number
-		editTextLoadFullNumber = view!!.findViewById(R.id.editText_loadFullNumber)
-		editTextLoadCarrierNumber = view!!.findViewById(R.id.editText_loadCarrierNumber)
-		ccpLoadNumber = view!!.findViewById(R.id.ccp_loadFullNumber)
-		buttonLoadNumber = view!!.findViewById(R.id.button_loadFullNumber)
+		editTextLoadFullNumber = requireView().findViewById(R.id.editText_loadFullNumber)
+		editTextLoadCarrierNumber = requireView().findViewById(R.id.editText_loadCarrierNumber)
+		ccpLoadNumber = requireView().findViewById(R.id.ccp_loadFullNumber)
+		buttonLoadNumber = requireView().findViewById(R.id.button_loadFullNumber)
 
 		//get number
-		editTextGetCarrierNumber = view!!.findViewById(R.id.editText_getCarrierNumber)
-		editTextGetFullNumber = view!!.findViewById(R.id.textView_getFullNumber)
-		buttonGetNumber = view!!.findViewById(R.id.button_getFullNumber)
-		buttonGetNumberWithPlus = view!!.findViewById(R.id.button_getFullNumberWithPlus)
-		ccpGetNumber = view!!.findViewById(R.id.ccp_getFullNumber)
-		buttonFormattedFullNumber = view!!.findViewById(R.id.button_getFormattedFullNumberWithPlus)
-		tvValidity = view!!.findViewById(R.id.tv_validity)
-		imgValidity = view!!.findViewById(R.id.img_validity)
+		editTextGetCarrierNumber = requireView().findViewById(R.id.editText_getCarrierNumber)
+		editTextGetFullNumber = requireView().findViewById(R.id.textView_getFullNumber)
+		buttonGetNumber = requireView().findViewById(R.id.button_getFullNumber)
+		buttonGetNumberWithPlus = requireView().findViewById(R.id.button_getFullNumberWithPlus)
+		ccpGetNumber = requireView().findViewById(R.id.ccp_getFullNumber)
+		buttonFormattedFullNumber = requireView().findViewById(R.id.button_getFormattedFullNumberWithPlus)
+		tvValidity = requireView().findViewById(R.id.tv_validity)
+		imgValidity = requireView().findViewById(R.id.img_validity)
 
-		buttonNext = view!!.findViewById(R.id.button_next)
+		buttonNext = requireView().findViewById(R.id.button_next)
 	}
 }

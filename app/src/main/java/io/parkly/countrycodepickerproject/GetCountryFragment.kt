@@ -44,11 +44,11 @@ class GetCountryFragment: Fragment() {
 	}
 
 	private fun assignViews() {
-		ccp = view!!.findViewById(R.id.ccp)
-		textViewCountryCode = view!!.findViewById(R.id.textView_countryCode)
-		textViewCountryName = view!!.findViewById(R.id.textView_countryName)
-		textViewCountryNameCode = view!!.findViewById(R.id.textView_countryNameCode)
-		buttonReadCountry = view!!.findViewById(R.id.button_readCountry)
-		buttonNext = view!!.findViewById(R.id.button_next)
+		ccp = requireView().findViewById(R.id.ccp)
+		textViewCountryCode = requireView().findViewById(R.id.textView_countryCode)
+		textViewCountryName = requireView().findViewById(R.id.textView_countryName)
+		textViewCountryNameCode = requireView().findViewById(R.id.textView_countryNameCode)
+		buttonReadCountry = requireView().findViewById(R.id.button_readCountry)
+		buttonNext = requireView().findViewById(R.id.button_next)
 	}
 }

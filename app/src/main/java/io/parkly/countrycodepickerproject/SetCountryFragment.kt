@@ -90,11 +90,11 @@ class SetCountryFragment: Fragment() {
 	}
 
 	private fun assignViews() {
-		editTextNameCode = view!!.findViewById(R.id.editText_countryNameCode)
-		editTextCode = view!!.findViewById(R.id.editText_countryCode)
-		ccp = view!!.findViewById(R.id.ccp)
-		buttonSetCode = view!!.findViewById(R.id.button_setCountry)
-		buttonSetNameCode = view!!.findViewById(R.id.button_setCountryNameCode)
-		buttonNext = view!!.findViewById(R.id.button_next)
+		editTextNameCode = requireView().findViewById(R.id.editText_countryNameCode)
+		editTextCode = requireView().findViewById(R.id.editText_countryCode)
+		ccp = requireView().findViewById(R.id.ccp)
+		buttonSetCode = requireView().findViewById(R.id.button_setCountry)
+		buttonSetNameCode = requireView().findViewById(R.id.button_setCountryNameCode)
+		buttonNext = requireView().findViewById(R.id.button_next)
 	}
 }

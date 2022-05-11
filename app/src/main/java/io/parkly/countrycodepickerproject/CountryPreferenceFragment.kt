@@ -67,11 +67,11 @@ class CountryPreferenceFragment: Fragment() {
 	}
 
 	private fun assignViews() {
-		editTextCountryPreference = view!!.findViewById(R.id.editText_countryPreference)
-		ccp = view!!.findViewById(R.id.ccp)
-		buttonSetCountryPreference = view!!.findViewById(R.id.button_setCountryPreference)
+		editTextCountryPreference = requireView().findViewById(R.id.editText_countryPreference)
+		ccp = requireView().findViewById(R.id.ccp)
+		buttonSetCountryPreference = requireView().findViewById(R.id.button_setCountryPreference)
 
 
-		buttonNext = view!!.findViewById(R.id.button_next)
+		buttonNext = requireView().findViewById(R.id.button_next)
 	}
 }

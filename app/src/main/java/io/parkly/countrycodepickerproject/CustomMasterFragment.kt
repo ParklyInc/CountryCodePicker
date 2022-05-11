@@ -65,10 +65,10 @@ class CustomMasterFragment: Fragment() {
 	}
 
 	private fun assignViews() {
-		editTextCountryCustomMaster = view!!.findViewById(R.id.editText_countryPreference)
-		ccp = view!!.findViewById(R.id.ccp)
-		buttonSetCustomMaster = view!!.findViewById(R.id.button_setCustomMaster)
+		editTextCountryCustomMaster = requireView().findViewById(R.id.editText_countryPreference)
+		ccp = requireView().findViewById(R.id.ccp)
+		buttonSetCustomMaster = requireView().findViewById(R.id.button_setCustomMaster)
 
-		buttonNext = view!!.findViewById(R.id.button_next)
+		buttonNext = requireView().findViewById(R.id.button_next)
 	}
 }

@@ -22,7 +22,7 @@ class CustomSizeFragment: Fragment() {
 	override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 		super.onViewCreated(view, savedInstanceState)
 
-		buttonNext = getView()!!.findViewById(R.id.button_next)
+		buttonNext = requireView().findViewById(R.id.button_next)
 		buttonNext.setOnClickListener { (activity as ExampleActivity).viewPager.currentItem = (activity as ExampleActivity).viewPager.currentItem + 1 }
 	}
 }

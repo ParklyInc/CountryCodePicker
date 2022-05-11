@@ -64,6 +64,6 @@ class LanguageSupportFragment: Fragment() {
 		radioEnglish = rootView.findViewById(R.id.radioEnglish)
 		radioJapanese = rootView.findViewById(R.id.radioJapanese)
 		radioSpanish = rootView.findViewById(R.id.radioSpanish)
-		buttonNext = view!!.findViewById(R.id.button_next)
+		buttonNext = requireView().findViewById(R.id.button_next)
 	}
 }

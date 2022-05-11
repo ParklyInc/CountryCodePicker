@@ -93,14 +93,14 @@ class DefaultCountryFragment: Fragment() {
 	}
 
 	private fun assignViews() {
-		editTextDefaultPhoneCode = view!!.findViewById(R.id.editText_defaultCode)
-		ccp = view!!.findViewById(R.id.ccp)
-		buttonSetNewDefaultPhoneCode = view!!.findViewById(R.id.button_setDefaultCode)
-		buttonResetToDefault = view!!.findViewById(R.id.button_resetToDefault)
+		editTextDefaultPhoneCode = requireView().findViewById(R.id.editText_defaultCode)
+		ccp = requireView().findViewById(R.id.ccp)
+		buttonSetNewDefaultPhoneCode = requireView().findViewById(R.id.button_setDefaultCode)
+		buttonResetToDefault = requireView().findViewById(R.id.button_resetToDefault)
 
-		editTextDefaultNameCode = view!!.findViewById(R.id.editText_defaultNameCode)
-		buttonSetNewDefaultNameCode = view!!.findViewById(R.id.button_setDefaultNameCode)
+		editTextDefaultNameCode = requireView().findViewById(R.id.editText_defaultNameCode)
+		buttonSetNewDefaultNameCode = requireView().findViewById(R.id.button_setDefaultNameCode)
 
-		buttonNext = view!!.findViewById(R.id.button_next)
+		buttonNext = requireView().findViewById(R.id.button_next)
 	}
 }

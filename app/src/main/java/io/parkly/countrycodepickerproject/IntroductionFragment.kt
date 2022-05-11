@@ -34,9 +34,9 @@ class IntroductionFragment: Fragment() {
 	}
 
 	private fun assignViews() {
-		buttonGo = view!!.findViewById(R.id.button_letsGo)
-		etPhone = view!!.findViewById(R.id.et_phone)
-		countryCodePicker = view!!.findViewById(R.id.ccp)
+		buttonGo = requireView().findViewById(R.id.button_letsGo)
+		etPhone = requireView().findViewById(R.id.et_phone)
+		countryCodePicker = requireView().findViewById(R.id.ccp)
 		countryCodePicker.registerCarrierNumberEditText(etPhone)
 	}
 
