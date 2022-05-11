@@ -1,8 +1,8 @@
-Country Code Picker Library ![MavenCentral](https://maven-badges.herokuapp.com/maven-central/com.hbb20/ccp/badge.svg)
+Country Code Picker Library
 ==================================
 
-![ViewCount](https://views.whatilearened.today/views/github/hbb20/CountryCodePickerProject.svg) [![GitHub issues](https://img.shields.io/github/issues/hbb20/CountryCodePickerProject)](https://github.com/hbb20/CountryCodePickerProject/issues)  [![GitHub forks](https://img.shields.io/github/forks/hbb20/CountryCodePickerProject)](https://github.com/hbb20/CountryCodePickerProject/network) [![GitHub stars](https://img.shields.io/github/stars/hbb20/CountryCodePickerProject)](https://github.com/hbb20/CountryCodePickerProject/stargazers) [![GitHub license](https://img.shields.io/github/license/hbb20/CountryCodePickerProject)](https://github.com/hbb20/CountryCodePickerProject/blob/master/License.txt) 
-![GitHub search hit counter](https://img.shields.io/github/search/hbb20/CountryCodePickerProject/CountryCodePicker)
+![ViewCount](https://views.whatilearened.today/views/github/ParklyInc/CountryCodePicker.svg) [![GitHub issues](https://img.shields.io/github/issues/ParklyInc/CountryCodePicker)](https://github.com/ParklyInc/CountryCodePicker/issues)  [![GitHub forks](https://img.shields.io/github/forks/hbb20/CountryCodePickerProject)](https://github.com/ParklyInc/CountryCodePicker/network) [![GitHub stars](https://img.shields.io/github/stars/ParklyInc/CountryCodePicker)](https://github.com/ParklyInc/CountryCodePicker/stargazers) [![GitHub license](https://img.shields.io/github/license/ParklyInc/CountryCodePicker)](https://github.com/ParklyInc/CountryCodePicker/blob/master/License.txt) 
+![GitHub search hit counter](https://img.shields.io/github/search/ParklyInc/CountryCodePicker/CountryCodePicker)
 
 
 If you are looking for an android library for Country Selector or Country Spinner or Country Phone Code selector, this is the perfect place for you.
@@ -40,30 +40,30 @@ Features
 If you prefer experience along with explanations, an demo android app is available that demonstrates all the features of this library. Click below button to download from Playstore.
 <br/><a href="https://goo.gl/zI2cY2"><img src="https://raw.githubusercontent.com/hbb20/CountryCodePickerProject/master/playstore.jpeg"/></a>
 
-* [Super easy to integrate ](https://github.com/hbb20/CountryCodePickerProject/wiki/How-to-integrate-into-your-project)
-* [Full Number Support](https://github.com/hbb20/CountryCodePickerProject/wiki/Full-Number-Support)
+* [Super easy to integrate ](https://github.com/ParklyInc/CountryCodePicker/wiki/How-to-integrate-into-your-project)
+* [Full Number Support](https://github.com/ParklyInc/CountryCodePicker/wiki/Full-Number-Support)
 	- Auto-Formatting
 	- Number Validation
 	- Validity Change Listener
 	- Read / Load full number
-* [Use as Country Selector / Country Spinner](https://github.com/hbb20/CountryCodePickerProject/wiki/Use-as-a-Country-Selector)
-* [Country preference](https://github.com/hbb20/CountryCodePickerProject/wiki/Country-Preference)
-* [Custom master list](https://github.com/hbb20/CountryCodePickerProject/wiki/Custom-Master-Country-List)
-* [Country Selection Change Listener](https://github.com/hbb20/CountryCodePickerProject/wiki/Country-Change-Listener)
-* [Multi-language support](https://github.com/hbb20/CountryCodePickerProject/wiki/Multi-Language-Support)
-* Customizable [CCP theme](https://github.com/hbb20/CountryCodePickerProject/wiki/CCP-Theme-Customization) and [Dialog Theme](https://github.com/hbb20/CountryCodePickerProject/wiki/CCP-Dialog-Theme-Customization) 
-* [Auto detect Country](https://github.com/hbb20/CountryCodePickerProject/wiki/Auto-detect-country)
-* [Auto detect Language](https://github.com/hbb20/CountryCodePickerProject/wiki/XML-Properties#appccp_autodetectlanguagetrue-default--false-)
-* [Remembers last selection](https://github.com/hbb20/CountryCodePickerProject/wiki/XML-Properties#appccp_rememberlastselectiontrue-default--false-)
-* [Fast Scroller](https://github.com/hbb20/CountryCodePickerProject/wiki/XML-Properties#appccpdialog_showfastscrollerfalse-default-true-) 
+* [Use as Country Selector / Country Spinner](https://github.com/ParklyInc/CountryCodePicker/wiki/Use-as-a-Country-Selector)
+* [Country preference](https://github.com/ParklyInc/CountryCodePicker/wiki/Country-Preference)
+* [Custom master list](https://github.com/ParklyInc/CountryCodePicker/wiki/Custom-Master-Country-List)
+* [Country Selection Change Listener](https://github.com/ParklyInc/CountryCodePicker/wiki/Country-Change-Listener)
+* [Multi-language support](https://github.com/ParklyInc/CountryCodePicker/wiki/Multi-Language-Support)
+* Customizable [CCP theme](https://github.com/ParklyInc/CountryCodePicker/wiki/CCP-Theme-Customization) and [Dialog Theme](https://github.com/ParklyInc/CountryCodePicker/wiki/CCP-Dialog-Theme-Customization) 
+* [Auto detect Country](https://github.com/ParklyInc/CountryCodePicker/wiki/Auto-detect-country)
+* [Auto detect Language](https://github.com/ParklyInc/CountryCodePicker/wiki/XML-Properties#appccp_autodetectlanguagetrue-default--false-)
+* [Remembers last selection](https://github.com/ParklyInc/CountryCodePicker/wiki/XML-Properties#appccp_rememberlastselectiontrue-default--false-)
+* [Fast Scroller](https://github.com/ParklyInc/CountryCodePicker/wiki/XML-Properties#appccpdialog_showfastscrollerfalse-default-true-) 
 
 
 ## Available XML properties
-To check all xml properties available for CCP and CCP Selection ppDialog, please visit the [wiki page](https://github.com/hbb20/CountryCodePickerProject/wiki/XML-Properties).
+To check all xml properties available for CCP and CCP Selection ppDialog, please visit the [wiki page](https://github.com/ParklyInc/CountryCodePicker/wiki/XML-Properties).
 
 # Contribution
-- To add a new country, follow the [guide to add new country](https://github.com/hbb20/CountryCodePickerProject/wiki/Guide-to-add-new-country-in-list).
-- To add a new Language support, follow the [guide to add new language support](https://github.com/hbb20/CountryCodePickerProject/wiki/Add-New-Language-Support).
+- To add a new country, follow the [guide to add new country](https://github.com/ParklyInc/CountryCodePicker/wiki/Guide-to-add-new-country-in-list).
+- To add a new Language support, follow the [guide to add new language support](https://github.com/ParklyInc/CountryCodePicker/wiki/Add-New-Language-Support).
 
 
 
