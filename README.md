@@ -27,18 +27,14 @@ Introduction
 How to add to your project
 --------------
 
-Add this to your gradle file and sync. See [CHANGELOG](https://github.com/hbb20/CountryCodePickerProject/blob/master/CHANGELOG.md) for detailed list of changes.
+Add this to your gradle file and sync.
 
   ````groovy
           dependencies {
-            implementation 'com.hbb20:ccp:X.Y.Z'
+            implementation 'com.github.ParklyInc:CountryCodePicker:X.Y.Z'
           }
    ````
-   ![MavenCentral](https://maven-badges.herokuapp.com/maven-central/com.hbb20/ccp/badge.svg)
-  * If you are using version lower than 2.0.0 then please read [update guide](https://github.com/hbb20/CountryCodePickerProject/wiki/Update-Guide-for-v2.0.0) before upgrading to v2.0.0. or above*
-  * Version 2.3.1 and above uses AndroidX
-  * Version 2.5.0 and above hosted on MavenCentral
-
+   
 Features
 --------
 If you prefer experience along with explanations, an demo android app is available that demonstrates all the features of this library. Click below button to download from Playstore.
@@ -64,39 +60,6 @@ If you prefer experience along with explanations, an demo android app is availab
 
 ## Available XML properties
 To check all xml properties available for CCP and CCP Selection ppDialog, please visit the [wiki page](https://github.com/hbb20/CountryCodePickerProject/wiki/XML-Properties).
-
-## Credits
-- [Fast Scroller library](https://github.com/FutureMind/recycler-fast-scroll) by [Future Minds](https://github.com/FutureMind)
-- Optimized [Android port](https://github.com/MichaelRocks/libphonenumber-android) of [libphonenumber](https://github.com/googlei18n/libphonenumber) by [Michael Rozumyanskiy](https://github.com/MichaelRocks) 
-- Hebrew translation by [David Brownstone](https://github.com/dfbrownstone)
-- Chinese translation by [KENNETH2008](https://github.com/kenneth2008)
-- Indonesia translation by [Maulana Firdaus](https://github.com/firdausmaulan)
-- Spanish translation by [Armando Gomez](https://github.com/ArmandoGomez)
-- Turkish translation by [Ugurcan Yildirim](https://github.com/ugurcany)
-- Ukrainian language support by [VyacheslavMartynenko](https://github.com/VyacheslavMartynenko)
-- Italian language support by [Fabrizio Gueli](https://github.com/fabriziogueli)
-- Korean language support by [kduhyun](https://github.com/kduhyun)
-- Portuguese translation corrections by [Elifázio Bernardes da Silva](https://github.com/elifazio)
-- Flag border color option by [Maulana Firdaus](https://github.com/firdausmaulan)
-- Dutch language support by [Bozintan Iuliana](https://github.com/IulianaDiana)
-- Punjabi language support by [Dhruv Bhakta](https://github.com/DBB411)
-- Arabic translation corrections by [Ahmed Wahdan](https://github.com/WahdanZ)
-- Swedish language support by [Tobias Hillén](https://github.com/tobiashillen)
-- Addition of Kosovo Country by [Aleksei Kliuev](https://github.com/aleksei-klv)
-- Uzbek language support by [Mirmuhsin](https://github.com/Mirmuhsin)
-- Afrikaans language support by [marilie](https://github.com/marilie)
-- Czech language support by [Jakub Begera](https://github.com/jakubbegera)
-- Greek language support by [khanboy1989](https://github.com/khanboy1989)
-- Danish language support by [porkyhead](https://github.com/porkyhead)
-- Vietnamese language support by [Ricardo Markiewicz](https://github.com/Gazer)
-- Urdu language support by [Hamza Ahmed Khan](https://github.com/hamzaahmedkhan)
-- Kazakh language support by [Zhanbolat Raimbekov](https://github.com/janbolat)
-- Marathi language support by [Kaustubh Kulkarni](https://github.com/kaustubhk24)
-- Slovenian language support by [pastafarianGit](https://github.com/pastafarianGit)
-- Tagalog (Filipino/Tagalog) language support by [Noor ul Ain Ali](https://github.com/noorulain17)
-- Thai language support by [offerre](https://github.com/offerre)
-- BASQUE language support by [David Benito Fdz.](https://github.com/Davidbf)
-- Hungarian language support by [valivalter](https://github.com/valivalter)
 
 # Contribution
 - To add a new country, follow the [guide to add new country](https://github.com/hbb20/CountryCodePickerProject/wiki/Guide-to-add-new-country-in-list).
